@@ -14,7 +14,7 @@ module.exports = {
     : '#cheap-module-source-map',
   output: {
     path: path.resolve(__dirname, '../dist2'),
-    publicPath: '/vue-template-bug/dist/',
+    publicPath: '/vue-ssr-v-html-bug/dist/',
     filename: '[name].[chunkhash].js'
   },
   resolve: {

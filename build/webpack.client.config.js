@@ -48,7 +48,7 @@ if (process.env.NODE_ENV === 'production') {
   config.plugins.push(
     // auto generate service worker
     new SWPrecachePlugin({
-      cacheId: 'vue-template-bug',
+      cacheId: 'vue-ssr-v-html-bug',
       filename: 'service-worker.js',
       minify: true,
       dontCacheBustUrlsMatching: /./,
