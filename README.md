@@ -1,6 +1,6 @@
 # vue-ssr-v-html-bug
 
-> A Vue.js SSR project
+> A test case for https://github.com/vuejs/vue/issues/11299
 
 # Setup
 
